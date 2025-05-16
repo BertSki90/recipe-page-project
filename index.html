@@ -19,9 +19,12 @@
     <main>
       <!-- CARD -->
       <div id="card">
-        <section>
-          <img src="assets\images\image-omelette.jpeg" alt="Omelette" />
-          <h1>Simple Omelette Recipe</h1>
+        <!-- IMAGE -->
+        <img src="assets\images\image-omelette.jpeg" alt="Omelette" />
+
+        <!-- HEADING -->
+        <section id="heading">
+          <h1 class="young-serif-regular">Simple Omelette Recipe</h1>
           <p>
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
@@ -29,16 +32,25 @@
           </p>
         </section>
 
-        <!-- CONTAINER -->
-        <section>
-          <h3>Preparation time</h3>
+        <!-- PREP TIME -->
+        <section id="prep-time">
+          <!-- <h3>Preparation time</h3>
           <ul>
             <li><strong>Total:</strong> Approximately 10 minutes</li>
             <li><strong>Preparation:</strong> 5 minutes</li>
             <li><strong>Cooking:</strong> 5 minutes</li>
-          </ul>
+          </ul> -->
+          <div class="container">
+            <h3>Preparation time</h3>
+            <ul>
+              <li><strong>Total:</strong> Approximately 10 minutes</li>
+              <li><strong>Preparation:</strong> 5 minutes</li>
+              <li><strong>Cooking:</strong> 5 minutes</li>
+            </ul>
+          </div>
         </section>
 
+        <!-- INGREDIENTS -->
         <section>
           <h2>Ingredients</h2>
           <ul>
@@ -52,6 +64,7 @@
           </ul>
         </section>
 
+        <!-- INSTRUCTIONS -->
         <section>
           <h2>Instructions</h2>
           <ol>
@@ -79,7 +92,6 @@
               cook, carefully lift one edge and fold it over the fillings. Let
               it cook for another minute, then slide it onto a plate.
             </li>
-
             <li>
               <strong>Enjoy:</strong> Serve hot, with additional salt and pepper
               if needed.
@@ -87,12 +99,14 @@
           </ol>
         </section>
 
+        <!-- NUTRITION -->
         <section>
           <h2>Nutrition</h2>
           <p>
             The table below shows nutritional values per serving without the
             additional fillings.
           </p>
+          <!-- TABLE -->
           <table>
             <tr>
               <td>Calories</td>
