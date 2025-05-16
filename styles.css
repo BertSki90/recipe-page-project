@@ -63,6 +63,8 @@
 
 body {
     background-color: var(--Stone-100);
+    color: var(--Stone-600);
+    font-family: "Outfit", sans-serif;
     font-size: 16px;
 }
 
@@ -76,14 +78,56 @@ main {
 #card {
     background-color: var(--White);
     border-radius: 15px;
-    padding: 20px;
     width: 100%;
     max-width: 600px;
 }
+section {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+/* |||| IMAGE |||| */
 
 img {
     border-radius: 7px;
-    margin-bottom: 30px;
     object-fit: contain;
+    padding: 20px;
     width: 100%;
+}
+
+/* |||| HEADER |||| */
+
+h1 {
+    color: var(--Stone-900);
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin: 20px 0;
+}
+
+#heading p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+/* |||| PREP TIME |||| */
+
+.container {
+    background-color: var(--Rose-50);
+    padding: 20px;
+}
+
+.container h3 {
+    color: var(--Rose-800);
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+/* |||| MOBILE |||| */
+
+@media screen and (max-width: 480px) {
+     img {
+        border-radius: 0;
+        padding: 0;
+     }
 }
