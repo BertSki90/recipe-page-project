@@ -125,7 +125,8 @@ h1 {
 }
 
 /* |||| LISTS |||| */
-/* Figure out how to center text beside the bullet point. */
+/* Inside the li element use of the p element put all the text inline. Before the strong element was lining up with the bullet instead of the text.
+https://matheus-vinicio.github.io/RECIPE/ - this is the site that gave me the idea of using the p element inside the li element.*/
 ul {
     margin-left: 20px;
 }
@@ -136,7 +137,7 @@ li {
     padding-left: 20px;
 }
 
-/* ul li {
+ul li {
     display: flex;
     align-items: center;
     list-style: none;
@@ -148,7 +149,7 @@ ul li::before {
     border: solid 4px black;
     border-radius: 50%;
     margin-right: 20px;
-} */
+}
 
 /* |||| MOBILE |||| */
 
