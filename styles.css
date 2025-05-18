@@ -121,27 +121,34 @@ h1 {
     color: var(--Rose-800);
     font-size: 1.4rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* |||| LISTS |||| */
 /* Figure out how to center text beside the bullet point. */
 ul {
-    /* display: flex; */
-    /* flex-direction: column; */
     margin-left: 20px;
-    /* text-align: center; */
-    /* align-items: center; */
-    /* vertical-align: middle; */
 }
 
 li {
     font-size: 1.25rem;
     margin-bottom: 20px;
     padding-left: 20px;
-    /* vertical-align: middle; */
-    /* text-align: center; */
-    /* align-items: center; */
 }
+
+/* ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+ul li::before {
+    content: " ";
+    display: block;
+    border: solid 4px black;
+    border-radius: 50%;
+    margin-right: 20px;
+} */
 
 /* |||| MOBILE |||| */
 
