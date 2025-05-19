@@ -125,8 +125,6 @@ h1 {
 }
 
 /* |||| LISTS |||| */
-/* Inside the li element use of the p element put all the text inline. Before the strong element was lining up with the bullet instead of the text.
-https://matheus-vinicio.github.io/RECIPE/ - this is the site that gave me the idea of using the p element inside the li element.*/
 ul {
     margin-left: 20px;
 }
@@ -137,21 +135,25 @@ li {
     padding-left: 20px;
 }
 
+/* Centers the bullet to the text inside of LI element. */
+
 ul li {
-    display: flex;
     align-items: center;
+    display: flex;
     list-style: none;
 }
 
+/* Sets up the bullet for the LI element using the ::before psuedo code. */
+
 ul li::before {
-    content: " ";
-    display: block;
     border: solid 4px black;
     border-radius: 50%;
+    content: " ";
+    display: block;
     margin-right: 20px;
 }
 
-/* |||| MOBILE |||| */
+/* |||| MOBILE SCREEN |||| */
 
 @media screen and (max-width: 480px) {
      img {
