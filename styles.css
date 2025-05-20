@@ -82,7 +82,7 @@ main {
     max-width: 600px;
 }
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 0 20px;
     width: 100%;
 }
@@ -114,25 +114,21 @@ h1 {
 
 .container {
     background-color: var(--Rose-50);
-    padding: 20px;
+    border-radius: 10px;
+    padding: 30px 30px 10px;;
 }
 
 .container h3 {
     color: var(--Rose-800);
     font-size: 1.4rem;
     margin-bottom: 20px;
-    text-align: center;
 }
 
-/* |||| LISTS |||| */
-ul {
-    margin-left: 20px;
-}
+/* |||| LIST ITEMS |||| */
 
 li {
     font-size: 1.25rem;
     margin-bottom: 20px;
-    padding-left: 20px;
 }
 
 /* Centers the bullet to the text inside of LI element. */
@@ -150,7 +146,31 @@ ul li::before {
     border-radius: 50%;
     content: " ";
     display: block;
-    margin-right: 20px;
+    margin: 0 30px 0 7px;
+}
+
+/* |||| SUBTITLES |||| */
+
+h2 {
+    font-size: 2.2rem;
+    color: var(--Brown-800);
+    margin: 30px 0;
+}
+
+/* |||| INSTRUCTIONS |||| */
+
+ol {
+    margin-left: 30px;
+}
+
+ol li {
+    padding-left: 20px;
+}
+/* Find out how to change to font style of the marker. Need number one displayed without foot stand. */
+ol li::marker {
+    color: var(--Brown-800);
+    /* font-style: "Young Serif", sans-serif; */
+    font-weight: 700;
 }
 
 /* |||| MOBILE SCREEN |||| */
