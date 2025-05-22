@@ -23,9 +23,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 HTML
 ![](./screenshots/recipe-page-project-screenshot-html-1.png)
 ![](./screenshots/recipe-page-project-screenshot-html-2.png)
+![](./screenshots/recipe-page-project-screenshot-html-3.png)
 ![](./screenshots/recipe-page-project-screenshot-html-4.png)
 ![](./screenshots/recipe-page-project-screenshot-html-5.png)
-![](./screenshots/recipe-page-project-screenshot-html-6.png)
 
 CSS
 ![](./screenshots/recipe-page-project-screenshot-css-1.png)
