@@ -38,8 +38,8 @@ CSS
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/BertSki90/recipe-page-project)
+- Live Site URL: [Github Pages](https://bertski90.github.io/recipe-page-project/)
 
 ## My process
 
@@ -75,7 +75,7 @@ I was having difficulty with lining up the bullet center to all of the text in t
 </section>
 ```
 
-I needed to use the "ul li ::before" psuedo code to set up the bullet. For the "ul li" the bullets needed to be removed. "display: flex" and "align-items: center" is the code to center the bullet to the block of text.
+I needed to use the "ul li ::before" psuedo code to set up the bullet. For the "ul li" the bullets needed to be removed. "display: flex" and "align-items: center" is the code to center the bullet to the block of text. (The CSS below corresponds with the HTML from above.)
 
 ```css
 ul li {
@@ -103,15 +103,13 @@ I need to read more about tables and get more familiar with them.
 
 - [FreeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) - This helped me to define the screen breakpoints.
 - [YouTube - CSS Express](https://www.youtube.com/watch?v=w9gVDgFzPO8) - This video taught me how to vertically center the bullets of the LI element text.
-- [Matheus Vinicio](https://matheus-vinicio.github.io/RECIPE/) - I noticed that in this code the individual placed the P element inside of the LI element. It got me to think of wrapping the text that was not displaying properly inside the P element.
+- [Frontend Mentor - Matheus Vinicio](https://matheus-vinicio.github.io/RECIPE/) - I noticed that in this code the individual placed the P element inside of the LI element. It got me to think of wrapping the text that was not displaying properly inside the P element.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Github Pages](https://bertski90.github.io/recipe-page-project/)
+- Frontend Mentor - [@BertSki90](https://www.frontendmentor.io/profile/BertSki90)
+- Twitter - [@BertSki90](https://x.com/BertSki90)
 
 ## Acknowledgments
 
